@@ -31,7 +31,6 @@ sudo docker run -v /dev/shm/hls:/usr/share/nginx/html/hls \
 ### 1. Record new video and audio segments with ffmpeg 
 
 ```
-
 # HLS with h264 (video codec) and aac (audio codec)
 sudo mkdir -vp /dev/shm/hls
 
