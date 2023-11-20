@@ -9,7 +9,7 @@
 
 ## Summary
 
-Sample repository demonstrating HLS streaming with nginx.
+Sample repository demonstrating HLS streaming with nginx    
 
 ## References
 
