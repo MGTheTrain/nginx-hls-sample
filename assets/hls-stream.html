@@ -10,7 +10,7 @@
         <video id="video" controls autoplay></video>
         <script>
             var video = document.getElementById("video");
-            // File is mounted and requires ffmpeg command to be executed
+            // File is mounted. By utilizing ffmpeg new live video can be recorded and displayed in this HLS live stream app 
             var videoSrc = "/hls/live.m3u8";
             // First check for native browser HLS support
             if (video.canPlayType("application/vnd.apple.mpegurl")) {
