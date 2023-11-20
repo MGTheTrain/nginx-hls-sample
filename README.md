@@ -17,7 +17,7 @@ Sample repository demonstrating HLS streaming with nginx.
 
 ## How to use
 
-### 0. Build docker image and run nginx docker container:
+### 0. Build docker image and run nginx docker container
 
 ```
 # Build 
@@ -37,4 +37,4 @@ sudo mkdir -vp /dev/shm/hls
 
 sudo ffmpeg -y -f v4l2 -framerate 30 -i /dev/video0 -f alsa -i hw:0 -c:v libx264 -preset veryfast -tune zerolatency -pix_fmt yuv420p -b:v 1500k -c:a aac -b:a 64k -ar 44100 -f hls -hls_time 1 -hls_list_size 30 -hls_flags delete_segments /dev/shm/hls/live.m3u8
 ```
-### 2. Visit `localhost:8080/hls-live-stream.html` or `localhost:8080/hls-video-stream.html`
+### 2. Visit `localhost:8080/hls-stream.html`
