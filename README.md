@@ -1,4 +1,4 @@
-# video-streaming
+# nginx-hls-sample
 
 ## Table of Contents
 
